@@ -1,0 +1,29 @@
+CEF:0|Securden|Unified PAM|1.0|2001|Admin login successful|3|src=192.168.1.10 suser=admin msg=Administrator 'admin' logged in successfully from '192.168.1.10'
+CEF:0|Securden|Unified PAM|1.0|2002|Admin login failed|5|src=192.168.1.11 suser=admin msg=Failed login attempt for administrator 'admin' from '192.168.1.11'
+CEF:0|Securden|Unified PAM|1.0|2003|New user created|2|src=192.168.1.12 suser=admin msg=New user 'jdoe' created with role 'Standard User'
+CEF:0|Securden|Unified PAM|1.0|2004|User role updated|3|src=192.168.1.13 suser=admin msg=User 'asmith' role updated from 'Standard User' to 'Administrator'
+CEF:0|Securden|Unified PAM|1.0|2005|User deleted|4|src=192.168.1.14 suser=admin msg=User 'mjones' deleted from the system
+CEF:0|Securden|Unified PAM|1.0|2006|Password policy changed|3|src=192.168.1.15 suser=admin msg=Password policy updated to enforce complexity requirements
+CEF:0|Securden|Unified PAM|1.0|2007|Multi-factor authentication enabled|2|src=192.168.1.16 suser=admin msg=Multi-factor authentication enabled for all users
+CEF:0|Securden|Unified PAM|1.0|2008|Multi-factor authentication disabled|4|src=192.168.1.17 suser=admin msg=Multi-factor authentication disabled for user 'jdoe'
+CEF:0|Securden|Unified PAM|1.0|2009|Application added to control policy|3|src=192.168.1.18 suser=admin msg=Application 'AppX' added to control policy 'Policy1'
+CEF:0|Securden|Unified PAM|1.0|2010|Application removed from control policy|4|src=192.168.1.19 suser=admin msg=Application 'AppY' removed from control policy 'Policy2'
+CEF:0|Securden|Unified PAM|1.0|2011|Privilege elevation request approved|2|src=192.168.1.20 suser=admin msg=Privilege elevation request for application 'AppZ' by user 'jdoe' approved
+CEF:0|Securden|Unified PAM|1.0|2012|Privilege elevation request denied|4|src=192.168.1.21 suser=admin msg=Privilege elevation request for application 'AppA' by user 'asmith' denied
+CEF:0|Securden|Unified PAM|1.0|2013|Temporary admin access granted|3|src=192.168.1.22 suser=admin msg=Temporary admin access granted to user 'mjones' for duration of 60 minutes
+CEF:0|Securden|Unified PAM|1.0|2014|Temporary admin access revoked|3|src=192.168.1.23 suser=admin msg=Temporary admin access revoked for user 'mjones'
+CEF:0|Securden|Unified PAM|1.0|2015|Agent deployed to endpoint|2|src=192.168.1.24 suser=admin msg=Securden agent deployed to endpoint 'DESKTOP-001'
+CEF:0|Securden|Unified PAM|1.0|2016|Agent uninstalled from endpoint|4|src=192.168.1.25 suser=admin msg=Securden agent uninstalled from endpoint 'DESKTOP-002'
+CEF:0|Securden|Unified PAM|1.0|2017|Application discovered on endpoint|3|src=192.168.1.26 suser=agent msg=Application 'AppB' discovered on endpoint 'DESKTOP-003'
+CEF:0|Securden|Unified PAM|1.0|2018|Linux command added to control policy|3|src=192.168.1.27 suser=admin msg=Linux command '/usr/bin/apt-get' added to control policy 'LinuxPolicy1'
+CEF:0|Securden|Unified PAM|1.0|2019|Linux command removed from control policy|4|src=192.168.1.28 suser=admin msg=Linux command '/usr/bin/apt-get' removed from control policy 'LinuxPolicy2'
+CEF:0|Securden|Unified PAM|1.0|2020|Technician access policy created|2|src=192.168.1.29 suser=admin msg=Technician access policy 'TechPolicy1' created
+CEF:0|Securden|Unified PAM|1.0|2021|Technician access policy deleted|4|src=192.168.1.30 suser=admin msg=Technician access policy 'TechPolicy2' deleted
+CEF:0|Securden|Unified PAM|1.0|2022|Session recording enabled|2|src=192.168.1.31 suser=admin msg=Session recording enabled for all privileged sessions
+CEF:0|Securden|Unified PAM|1.0|2023|Session recording disabled|4|src=192.168.1.32 suser=admin msg=Session recording disabled for user 'asmith'
+CEF:0|Securden|Unified PAM|1.0|2024|Emergency access granted|3|src=192.168.1.33 suser=admin msg=Emergency access granted to user 'jdoe'
+CEF:0|Securden|Unified PAM|1.0|2025|Emergency access revoked|3|src=192.168.1.34 suser=admin msg=Emergency access revoked for user 'jdoe'
+CEF:0|Securden|Unified PAM|1.0|2026|Security settings modified|3|src=192.168.1.35 suser=admin msg=Security settings updated to enforce IP address restrictions
+CEF:0|Securden|Unified PAM|1.0|2027|Integration with SIEM configured|2|src=192.168.1.36 suser=admin msg=Integration with SIEM solution 'SIEMX' configured successfully
+CEF:0|Securden|Unified PAM|1.0|2028|Integration with SIEM disabled|
+::contentReference[oaicite:0]{index=0}
