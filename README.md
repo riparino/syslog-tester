@@ -29,5 +29,5 @@ This file contains syslog-formatted messages in the Common Event Format (CEF). E
 1. Open `send-syslog-payload.ps1` and configure the `$server` variable with the target syslog server's IP or hostname.
 2. Run the script:
    ```powershell
-   .\SendSyslogPayload.ps1
+   .\send-syslog-payload.ps1
    ```
