@@ -1,4 +1,4 @@
-$logFile = ".\securden.txt"
+$logFile = ".\logs.txt"
 $server = ""
 $port = 514
 
